@@ -64,7 +64,7 @@ def generate_itinerary(location, duration, budget, interests, accommodation, add
     return response["choices"][0]["message"]["content"]
 
 # Step 4: Streamlit UI for User Interaction
-st.title("🌍 Travel Itinerary Generatorpip✈️")
+st.title("🌍 Travel Itinerary Generator ✈️")
 st.write("Let me help you plan the perfect trip! Answer a few questions to get started.")
 
 # Collect initial user inputs
